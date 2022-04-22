@@ -25,6 +25,10 @@ img {
     padding: 10% 12% 2% 35%;
 }
 
+.form-house {
+    z-index: 10000;
+}
+
 form, .signup {
     padding-top: 1%;
 }
