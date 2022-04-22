@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Padauk', sans-serif;
+    color: white;
+    background-image: url("nightsky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1;
+}
+.mothercontainer {
+    display: flex;
+}
+
+img {
+    position: absolute;
+}
+
+.information, form, .signup {
+    padding: 10% 12% 2% 35%;
+}
+
+form, .signup {
+    padding-top: 1%;
+}
+
+form > label {
+    text-transform: uppercase;
+}
+
+button {
+    background: white;
+    border: none;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
